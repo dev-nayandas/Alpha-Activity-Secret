@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, ListGroup } from 'react-bootstrap';
+import { Button, Card, ListGroup } from 'react-bootstrap';
 
 const Active = (props) => {
     const {id, name, img, description, time} = props.active
@@ -7,7 +7,7 @@ const Active = (props) => {
         <div className='d-flex'>
           
             <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+      <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -24,7 +24,9 @@ const Active = (props) => {
         <Card.Link href="#">Card Link</Card.Link>
         <Card.Link href="#">Another Link</Card.Link>
       </Card.Body>
+      <Button variant="secondary">Add To List</Button>
     </Card>
+   
         </div>
     );
 };

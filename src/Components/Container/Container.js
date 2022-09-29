@@ -12,19 +12,23 @@ const Container = () => {
     },[])
     return (
         <div className='d-flex'>
-           <div className='bg-info col-lg-8'>
+           <div   className='bg-info col-lg-8 '>
             
                 <div className='d-flex align-items-center p-5'>
                     <BellAlertIcon style={{width:  '40px', height: '40px'}} className='h-6 w-6'></BellAlertIcon>
                     <h1>Alpha Activity Screte</h1>
                 </div>
 
-                {
+              
+               <div className='active-container'>
+               {
                     activity.map(active =><Active 
                         key={active.id}
                         active ={active}
                         ></Active>)
                 }
+               
+               </div>
            
            </div>
            <div className='bg-primary col-lg-4'>
