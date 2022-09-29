@@ -1,6 +1,6 @@
 [
     {
-      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "id": "01",
       "name": "Reading",
       "description" : "Read books as many as possible. It makes your mind fresh. You can learn lot of things ",
       "time": 20,
@@ -8,7 +8,7 @@
 
     },
     {
-        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "id": "02",
         "name": "Writting",
         "description" : "Writting also help you to do betten in your life success. So you should write daily . There is no alternative of it",
         "time": 30,
@@ -16,7 +16,7 @@
   
     },
     {
-        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "id": "03",
         "name": "Playing",
         "description" : "To get a healthy lofe we should play regularly . It's make our bone strong. Keep free from deaseas",
         "time": 40,
@@ -24,7 +24,7 @@
   
     },
     {
-        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "id": "04",
         "name": "Swimming",
         "description" : "Do this workout for stay healthy ",
         "time": 50,
@@ -32,7 +32,7 @@
   
     },
     {
-        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "id": "05",
         "name": "Cycling",
         "description" : "Do this workout for stay healthy ",
         "time": 25,
@@ -40,7 +40,7 @@
   
     },
     {
-        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "id": "06",
         "name": "Merketing",
         "description" : "Do this workout for stay healthy ",
         "time": 35,

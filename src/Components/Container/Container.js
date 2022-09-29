@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./Container.css";
 import { BeakerIcon, BellAlertIcon } from '@heroicons/react/24/solid';
 import Active from '../Active/Active';
+import Time from '../Time/Time'
 
 const Container = () => {
     const [activity, setActivity] = useState([]);
@@ -27,6 +28,12 @@ const Container = () => {
                         active ={active}
                         ></Active>)
                 }
+               {/* {
+                    activity.map(time =><Time 
+                        key={time.id}
+                        active ={time}
+                        ></Time>)
+                } */}
                
                </div>
            
@@ -40,7 +47,13 @@ const Container = () => {
                 <h5>30 Yeasrs <br></br> Age</h5>
 
             </div>
-            <div className="break-container">
+            <h2>Add A Break</h2>
+            <div className=' info-container  d-flex align-items-center justify-content-center p-6'>
+               
+                <h5>10 min</h5>
+                <h5> 20 min</h5>
+                <h5>30 min</h5>
+                <h5>40 min</h5>
 
             </div>
            </div>
