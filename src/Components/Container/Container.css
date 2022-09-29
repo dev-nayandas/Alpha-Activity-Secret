@@ -1,5 +1,8 @@
-.container{
-    
+.info-container h5{
+    background-color: aquamarine;
+    padding: 20px; border-radius: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 .active-container{
     display: grid;

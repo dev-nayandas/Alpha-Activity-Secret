@@ -4,26 +4,21 @@ import { Button, Card, ListGroup } from 'react-bootstrap';
 const Active = (props) => {
     const {id, name, img, description, time} = props.active
     return (
-        <div className='d-flex'>
+        <div className='d-flex mb-3'>
           
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{name}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {description}
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+      
+        <ListGroup.Item>Time : {time} Min </ListGroup.Item>
       </ListGroup>
-      <Card.Body>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
-      </Card.Body>
+      
       <Button variant="secondary">Add To List</Button>
     </Card>
    

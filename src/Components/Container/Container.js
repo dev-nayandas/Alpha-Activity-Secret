@@ -32,7 +32,17 @@ const Container = () => {
            
            </div>
            <div className='bg-primary col-lg-4'>
-            <h2>Basic Info</h2>
+            <h2>Nayan Das</h2>
+            <h3>Cumilla, Bangladesh</h3>
+            <div className=' info-container  d-flex align-items-center justify-content-center p-6'>
+                <h5>75 Kg  <br></br> Weight</h5>
+                <h5>6.5 Inch <br></br> Height</h5>
+                <h5>30 Yeasrs <br></br> Age</h5>
+
+            </div>
+            <div className="break-container">
+
+            </div>
            </div>
         </div>
     );

@@ -1,31 +1,31 @@
 [
     {
       "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-      "name": "ULTRABOOST 22 SHOES",
-      "description" : "Do this workout for stay healthy ",
+      "name": "Reading",
+      "description" : "Read books as many as possible. It makes your mind fresh. You can learn lot of things ",
       "time": 20,
       "img": "https://images.pexels.com/photos/2228586/pexels-photo-2228586.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "name": "ULTRABOOST 22 SHOES",
-        "description" : "Do this workout for stay healthy ",
+        "name": "Writting",
+        "description" : "Writting also help you to do betten in your life success. So you should write daily . There is no alternative of it",
         "time": 30,
         "img": "https://images.pexels.com/photos/12618003/pexels-photo-12618003.jpeg?auto=compress&cs=tinysrgb&w=600"
   
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "name": "ULTRABOOST 22 SHOES",
-        "description" : "Do this workout for stay healthy ",
+        "name": "Playing",
+        "description" : "To get a healthy lofe we should play regularly . It's make our bone strong. Keep free from deaseas",
         "time": 40,
         "img": "https://images.pexels.com/photos/1104014/pexels-photo-1104014.jpeg?auto=compress&cs=tinysrgb&w=600"
   
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Swimming",
         "description" : "Do this workout for stay healthy ",
         "time": 50,
         "img": "https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -33,7 +33,7 @@
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Cycling",
         "description" : "Do this workout for stay healthy ",
         "time": 25,
         "img": "https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -41,7 +41,7 @@
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Merketing",
         "description" : "Do this workout for stay healthy ",
         "time": 35,
         "img": "https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg?auto=compress&cs=tinysrgb&w=600"
