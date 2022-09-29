@@ -2,7 +2,8 @@ import React from 'react';
 import { Button, Card, ListGroup } from 'react-bootstrap';
 
 const Active = (props) => {
-    const {id, name, img, description, time} = props.active
+    const {id, name, img, description, time} = props.active;
+   const{handleAddToList} = props;
     return (
         <div className='d-flex mb-3'>
           
@@ -19,7 +20,7 @@ const Active = (props) => {
         <ListGroup.Item>Time : {time} Min </ListGroup.Item>
       </ListGroup>
       
-      <Button variant="secondary">Add To List</Button>
+      <Button onClick={handleAddToList} variant="secondary">Add To List</Button>
     </Card>
    
         </div>

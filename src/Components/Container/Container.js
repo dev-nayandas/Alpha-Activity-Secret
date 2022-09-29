@@ -3,9 +3,13 @@ import "./Container.css";
 import { BeakerIcon, BellAlertIcon } from '@heroicons/react/24/solid';
 import Active from '../Active/Active';
 import Time from '../Time/Time'
+import { Button } from 'react-bootstrap';
 
 const Container = () => {
     const [activity, setActivity] = useState([]);
+    const handleAddToList = () =>{
+        console.log('clicked')
+      }
     useEffect(()=>{
         fetch('activity.json')
         .then(res =>res.json())
@@ -26,6 +30,7 @@ const Container = () => {
                     activity.map(active =><Active 
                         key={active.id}
                         active ={active}
+                        handleAddToList ={handleAddToList}
                         ></Active>)
                 }
                {/* {
@@ -47,8 +52,8 @@ const Container = () => {
                 <h5>30 Yeasrs <br></br> Age</h5>
 
             </div>
-            <h2>Add A Break</h2>
-            <div className=' info-container  d-flex align-items-center justify-content-center p-6'>
+            <h2 className='mt-5'>Add A Break</h2>
+            <div className=' info-container  d-flex align-items-center justify-content-center p-6 '>
                
                 <h5>10 min</h5>
                 <h5> 20 min</h5>
@@ -56,6 +61,14 @@ const Container = () => {
                 <h5>40 min</h5>
 
             </div>
+            <h2 className='mt-5'>Activity Details</h2>
+            <h4 className='bg-white ms-5 me-5 p-4 rounded'>Activity Time : 0 min </h4>
+            <h4 className='bg-white ms-5 me-5 p-4 rounded'>Break Time : 0 min </h4>
+            <Button className="w-100 mt-5" variant="secondary">Activity Completed</Button>
+
+           </div>
+           <div>
+          
            </div>
         </div>
     );
