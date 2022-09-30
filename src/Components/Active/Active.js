@@ -2,8 +2,9 @@ import React from 'react';
 import { Button, Card, ListGroup } from 'react-bootstrap';
 
 const Active = (props) => {
-    const {id, name, img, description, time} = props.active;
+    const {id, name, img, description, time } = props.active;
    const{handleAddToList} = props;
+   console.log(handleAddToList)
     return (
         <div className='d-flex mb-3'>
           
