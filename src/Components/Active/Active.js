@@ -20,7 +20,7 @@ const Active = (props) => {
         <ListGroup.Item>Time : {time} Min </ListGroup.Item>
       </ListGroup>
       
-      <Button onClick={handleAddToList} variant="secondary">Add To List</Button>
+      <Button onClick={()=>handleAddToList(props.active)} variant="secondary">Add To List</Button>
     </Card>
    
         </div>

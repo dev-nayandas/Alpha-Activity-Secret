@@ -7,21 +7,31 @@ import { Button } from 'react-bootstrap';
 
 const Container = () => {
     const [activity, setActivity] = useState([]);
-    const handleAddToList = () =>{
-        console.log('clicked')
-      }
+    const [time, setTime] = useState([])
+    
     useEffect(()=>{
         fetch('activity.json')
         .then(res =>res.json())
         .then(data => setActivity(data))
-    },[])
+    },[]);
+
+    const handleAddToList = (active) =>{
+        const minutes = active.time;
+        // console.log(active.time)
+        const newTime =[...time, minutes];
+        setTime(newTime);
+        console.log(newTime);
+        let sum = 0 ;
+        for (let i = 0; i < newTime.length; i++) { sum += array[i]; 
+            console.log(sum)
+      }
     return (
         <div className='d-flex'>
            <div   className='bg-info col-lg-8 '>
             
                 <div className='d-flex align-items-center p-5'>
                     <BellAlertIcon style={{width:  '40px', height: '40px'}} className='h-6 w-6'></BellAlertIcon>
-                    <h1>Alpha Activity Screte</h1>
+                    <h1>Alpha Activity Secret</h1>
                 </div>
 
               
@@ -62,7 +72,7 @@ const Container = () => {
 
             </div>
             <h2 className='mt-5'>Activity Details</h2>
-            <h4 className='bg-white ms-5 me-5 p-4 rounded'>Activity Time : 0 min </h4>
+            <h4 className='bg-white ms-5 me-5 p-4 rounded'>Activity Time : {time.length} min </h4>
             <h4 className='bg-white ms-5 me-5 p-4 rounded'>Break Time : 0 min </h4>
             <Button className="w-100 mt-5" variant="secondary">Activity Completed</Button>
 
