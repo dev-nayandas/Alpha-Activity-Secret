@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Toast } from 'react-bootstrap';
+import { toast } from 'react-toastify';
 
 const Sidebar = ({time}) => {
     console.log(time)
@@ -12,6 +13,9 @@ const Sidebar = ({time}) => {
         const breackTimeHandler =()=>{
             // console.log('clecked')
             // const breakTime= event.target.innerText;
+        }
+        const notify= ()=>{
+          toast('Activity Done')
         }
     return (
         <div className='bg-primary col-lg-4'>
@@ -33,7 +37,7 @@ const Sidebar = ({time}) => {
             <h2 className='mt-5'>Activity Details</h2>
             <h4 className='bg-white ms-5 me-5 p-4 rounded'>Activity Time :{sum}  min </h4>
             <h4 className='bg-white ms-5 me-5 p-4 rounded'>Break Time : <span>0</span>  min </h4>
-            <Button className="w-100 mt-5" variant="secondary">Activity Completed</Button>
+            <Button onClick={notify} className="w-100 mt-5" variant="secondary">Activity Completed</Button>
 
            </div>
     );

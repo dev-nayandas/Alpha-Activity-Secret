@@ -30,7 +30,7 @@ const Container = () => {
         }
       }
     return (
-        <div className='d-flex'>
+        <div className=' mamu d-flex'>
            <div   className='bg-info col-lg-8 '>
             
                 <div className='d-flex align-items-center p-5'>
